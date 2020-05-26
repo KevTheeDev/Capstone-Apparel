@@ -32,6 +32,7 @@ You can [** Pay us a visit **](https://facebook.github.io/create-react-app/docs/
  + aws
 
  #### Approach Taken...
+ 1. Minimalistic and Modern
 
 
  #### Problemss Encountered
@@ -40,19 +41,23 @@ You can [** Pay us a visit **](https://facebook.github.io/create-react-app/docs/
  #### Planning Board
  
  1. Monday
-    +
+    + Springboot JAVA
  2. Tuesday
-    +
+    + JAVA
  3. Wednesday
-    +
+    + Backend
  4. Thursday
     + CSS
  5. Friday
-    +
+    + Backend
  6. Saturday
-    +
+    + Typescript
  7. Sunday
-    +
+    + CSS
+ 8. Monday
+    + Backend/ Frontend
+ 9. Tuesday
+    + deploy
 
 
 
