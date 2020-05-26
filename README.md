@@ -31,7 +31,7 @@ You can [** Pay us a visit **](https://facebook.github.io/create-react-app/docs/
  + Surge,
  + aws
 
- #### Approach Taken...
+ ### Approach Taken...
  1. Minimalistic and Modern
 
 
