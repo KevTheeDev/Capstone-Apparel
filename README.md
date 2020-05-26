@@ -9,3 +9,4 @@ This app will tailor to individuals, mid-forties, to offer a more viable and sty
 ![wireframe](./WireframeApparel4.png)
 ![wireframe](./WireframeApparel5.png)
 ![wireframe](./WireframeApparel6.png)
+ 
