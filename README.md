@@ -25,7 +25,7 @@ You can [** Pay us a visit **](https://facebook.github.io/create-react-app/docs/
  
 
  #### To Run / Installation
- + npm, npm install axios, 
+ + npm -> npm install axios, nmp i react-router-dom
  + Firebase, 
  + Heroku, 
  + Surge,
