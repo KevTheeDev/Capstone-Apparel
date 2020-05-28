@@ -13,7 +13,7 @@ function NavbarMenu(){
 
                     <li> <Link to="/About">About </Link></li>
                     
-                    <li> <Link to=""> Testimonials </Link></li>
+                    <li> <Link to="/TestimonialsContainer"> Testimonials </Link></li>
 
                     <li> <Link to=""> Contact </Link> </li>
                 </ul>
