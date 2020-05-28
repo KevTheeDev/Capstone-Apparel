@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import NavbarMenu from "./components/NavbarMenu";
 import { Route, BrowserRouter as Router} from 'react-router-dom';
 import './App.css';
+
 import HomePage from './components/HomePage';
+import About from './components/About';
+
 
 class App extends Component {
   constructor(props) {
@@ -19,12 +22,9 @@ class App extends Component {
         
         <div>
           <NavbarMenu />
-          <HomePage />
 
-          <Route exact path="/" /> 
-          <Route path="/RandomGenerator" />
-          <Route exact path="/ThankYouPg" />
-          <Route exact path="/RandomGenerator/:id" />
+          <Route exact path="/" component={HomePage}/> 
+          <Route exact path="/About" component={About} />
         </div>
       
       </div>
