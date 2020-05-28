@@ -9,9 +9,9 @@ function NavbarMenu(){
 
             <nav> 
                 <ul>
-                    <li> <Link to=""> Features </Link> </li>
+                    <li> <Link to="/"> Home </Link> </li>
 
-                    <li> <Link to="/">About </Link></li>
+                    <li> <Link to="/About">About </Link></li>
                     
                     <li> <Link to=""> Testimonials </Link></li>
 
