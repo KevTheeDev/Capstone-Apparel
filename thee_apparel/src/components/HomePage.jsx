@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+// @ts-ignore
 import HomePageCss from '../styles/HomePage.css'
 
 function HomePage() {
@@ -11,5 +12,4 @@ function HomePage() {
             </div>
         );
 }
-
 export default HomePage;
