@@ -9,6 +9,10 @@ function HomePage() {
 
                 <p id="firstpg-paragraph"> ...comfort of dad / mom jeans with the "hipness" of modern times. Express yourself, through various styles, just a little, you deserve it! </p>
 
+                <div id="btm-btn">
+                    <p> add icon </p>
+                </div>
+
             </div>
         );
 }
