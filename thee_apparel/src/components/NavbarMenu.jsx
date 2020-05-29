@@ -9,6 +9,8 @@ function NavbarMenu(){
 
             <nav> 
                 <ul>
+                    <li> <Link to="/CartContainer"> Cart </Link> </li>
+
                     <li> <Link to="/"> Home </Link> </li>
 
                     <li> <Link to="/About">About </Link></li>
@@ -16,6 +18,7 @@ function NavbarMenu(){
                     <li> <Link to="/TestimonialsContainer"> Testimonials </Link></li>
 
                     <li> <Link to=""> Contact </Link> </li>
+
                 </ul>
             </nav>
         </div>
