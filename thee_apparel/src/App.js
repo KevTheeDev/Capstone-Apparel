@@ -5,7 +5,8 @@ import './App.css';
 
 import HomePage from './components/HomePage';
 import About from './components/About';
-import TestimonialsContainer from './components/TestimonialsContainer'
+import TestimonialsContainer from './components/TestimonialsContainer';
+import CartContainer from './components/CartContainer';
 
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
           <Route exact path="/" component={HomePage}/> 
           <Route exact path="/About" component={About} />
           <Route exact path="/TestimonialsContainer" component={TestimonialsContainer} />
+          <Route exact path="/CartContainer" component={CartContainer} />
 
         </div>
       
