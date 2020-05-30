@@ -12,3 +12,10 @@
     background-color: rgb(228, 228, 228);
     color: rgb(135, 135, 135);
 }
+
+.counter-img {
+    /* background-image: url(../assets/Fireworks-bkcgrnd.jpg); */
+    background-attachment: fixed;
+    /* background-size: 100%; */
+    color: white;
+}
