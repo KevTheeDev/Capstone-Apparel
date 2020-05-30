@@ -62,3 +62,16 @@ You can [** Pay us a visit **](https://facebook.github.io/create-react-app/docs/
 
 
 
+                                    REFERENCES
+
+##### FOR CSS
+https://www.w3schools.com/css/css_link.asp
+
+
+
+##### FOR XML
+
+
+
+##### Javascript
+
