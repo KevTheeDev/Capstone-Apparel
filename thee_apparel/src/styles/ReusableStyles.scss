@@ -1,0 +1,13 @@
+@mixin display-grid-foroutput {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: auto;
+}
+
+//Colors
+$border_color: red;
+
+//Font
+$aladin: 'Aladin', cursive;
+$bad_script: 'Bad Script', cursive;
+$charm: 'Charm'
