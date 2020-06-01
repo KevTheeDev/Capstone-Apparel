@@ -20,7 +20,7 @@ public class PromotionsController {
     @Autowired
     private PromotionsRepository promotionsRepository;
     //  get all promos
-    @GetMapping("/promos")
+    @GetMapping("/promo")
     public List<Promotions> get(Model model) {
         return this.promotionsRepository.findAll();
     }
@@ -28,7 +28,7 @@ public class PromotionsController {
 
 //  get all apparel by id
 
-    @GetMapping("/promos/{id}")
+    @GetMapping("/promo/{id}")
     public ResponseEntity<Promotions> getDecalById(@PathVariable(value = "id") Long promosId)
             throws ResourcesNotFoundException {
         Promotions promotions = promotionsRepository.findById(promosId)
@@ -38,14 +38,14 @@ public class PromotionsController {
 
 //  Save promo
 
-    @PostMapping("/promos")
+    @PostMapping("/promo")
     public Promotions createDecal(@Valid @RequestBody Promotions promotions) {
         return promotionsRepository.save(promotions);
     }
 
 //  Update Promo
 
-    @PutMapping("/promos/{id}")
+    @PutMapping("/promo/{id}")
     public ResponseEntity<Promotions> updatedPromos(@PathVariable(value = "id") Long promosId,
                                               @Valid @RequestBody Promotions promosDetails)
             throws ResourcesNotFoundException {
@@ -65,7 +65,7 @@ public class PromotionsController {
 
 //  Delete Promos
 
-    @DeleteMapping("/promos/{id}")
+    @DeleteMapping("/promo/{id}")
     public Map<String, Boolean> deletedPromos(@PathVariable(value = "id") Long promosId)
             throws ResourcesNotFoundException {
         Promotions promotions = promotionsRepository.findById(promosId)

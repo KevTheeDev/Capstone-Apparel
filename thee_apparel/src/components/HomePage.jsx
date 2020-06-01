@@ -1,6 +1,7 @@
 import React from 'react';
 // @ts-ignore
 import HomePageCss from '../styles/HomePage.css'
+import HomePageScss from '../styles/HomePageScss';
 
 function HomePage() {
         return (
@@ -13,6 +14,10 @@ function HomePage() {
                     <p> add icon </p>
                 </div>
 
+                <div> 
+                    <img className="counter-img" alt="bkgrnd-img" width="500" height="600"/>
+                    <p className="product-description"></p>
+                </div>
             </div>
         );
 }

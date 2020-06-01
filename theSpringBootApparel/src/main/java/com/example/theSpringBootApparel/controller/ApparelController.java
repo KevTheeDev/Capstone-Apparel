@@ -20,7 +20,7 @@ public class ApparelController {
     @Autowired
     private ApparelRepository apparelRepository;
     //  get all apparel
-    @GetMapping("/apparel")
+    @GetMapping("/clothes")
     public List<Apparel> get(Model model) {
         return this.apparelRepository.findAll();
     }
@@ -28,7 +28,7 @@ public class ApparelController {
 
 //  get all apparel by id
 
-    @GetMapping("/apparel/{id}")
+    @GetMapping("/clothes/{id}")
     public ResponseEntity<Apparel> getApparelById(@PathVariable(value = "id") Long apparelId)
             throws ResourcesNotFoundException {
         Apparel apparel = apparelRepository.findById(apparelId)
@@ -38,14 +38,14 @@ public class ApparelController {
 
 //  Save apparel
 
-    @PostMapping("/apparel")
+    @PostMapping("/clothes")
     public Apparel createApparel(@Valid @RequestBody Apparel apparel) {
         return apparelRepository.save(apparel);
     }
 
 //  Update Apparel
 
-    @PutMapping("/apparel/{id}")
+    @PutMapping("/clothes/{id}")
     public ResponseEntity<Apparel> updatedApparel(@PathVariable(value = "id") Long apparelId,
                                            @Valid @RequestBody Apparel apparelDetails)
             throws ResourcesNotFoundException {
@@ -67,7 +67,7 @@ public class ApparelController {
 
 //  Delete Clothes
 
-    @DeleteMapping("/apparel/{id}")
+    @DeleteMapping("/clothes/{id}")
     public Map<String, Boolean> deletedApparel(@PathVariable(value = "id") Long apparelId)
             throws ResourcesNotFoundException {
         Apparel apparel = apparelRepository.findById(apparelId)

@@ -20,7 +20,7 @@ public class DecalController {
     @Autowired
     private DecalRepository decalRepository;
     //  get all apparel
-    @GetMapping("/decal")
+    @GetMapping("/dec")
     public List<Decal> get(Model model) {
         return this.decalRepository.findAll();
     }
@@ -28,7 +28,7 @@ public class DecalController {
 
 //  get all apparel by id
 
-    @GetMapping("/decal/{id}")
+    @GetMapping("/dec/{id}")
     public ResponseEntity<Decal> getDecalById(@PathVariable(value = "id") Long decalId)
             throws ResourcesNotFoundException {
         Decal decal = decalRepository.findById(decalId)
@@ -38,14 +38,14 @@ public class DecalController {
 
 //  Save decal
 
-    @PostMapping("/decal")
+    @PostMapping("/dec")
     public Decal createDecal(@Valid @RequestBody Decal decal) {
         return decalRepository.save(decal);
     }
 
 //  Update Decal
 
-    @PutMapping("/decal/{id}")
+    @PutMapping("/dec/{id}")
     public ResponseEntity<Decal> updatedDecal(@PathVariable(value = "id") Long decalId,
                                                   @Valid @RequestBody Decal decalDetails)
             throws ResourcesNotFoundException {
@@ -67,7 +67,7 @@ public class DecalController {
 
 //  Delete Decal
 
-    @DeleteMapping("/decal/{id}")
+    @DeleteMapping("/dec/{id}")
     public Map<String, Boolean> deletedDecal(@PathVariable(value = "id") Long decalId)
             throws ResourcesNotFoundException {
         Decal decal = decalRepository.findById(decalId)
