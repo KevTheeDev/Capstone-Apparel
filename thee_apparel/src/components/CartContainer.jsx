@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import CartContainers from '../styles/CartContainers.css'
+import  '../styles/CartContainers.css'
 
 class CartContainer extends Component {
     constructor(props) {
@@ -10,8 +10,6 @@ class CartContainer extends Component {
          };
     }
 
-
-    
     render() {
 
         let array = {

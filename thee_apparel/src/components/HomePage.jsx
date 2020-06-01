@@ -1,7 +1,7 @@
 import React from 'react';
 // @ts-ignore
-import HomePageCss from '../styles/HomePage.css'
-import HomePageScss from '../styles/HomePage.scss';
+import '../styles/HomePage.css'
+import '../styles/HomePage.scss';
 
 function HomePage() {
         return (

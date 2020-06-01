@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // @ts-ignore
-import HomePage from '../styles/HomePage.css';
-import Testimonials from "../styles/TestimonialsContainer.css";
+import '../styles/HomePage.css';
+import "../styles/TestimonialsContainer.css";
 
 class TestimonialsContainer extends Component {
     constructor(props) {

@@ -16,34 +16,24 @@ class App extends Component {
     this.state = { 
       apparel: " ", 
       decal:" ",
-      promos: " ",
+      promos: "",
       isLoading: false,
 
      };
   }
 
-  async componentDidMount() {
-    const apparel = await fetch('apparel_api/v1/clothes');
-    const bodyApparel = await apparel.json();
     
-    const decal = await fetch('decal_api/v1/dec');
+    // const decal = await fetch('decal_api/v1/dec');
     // const bodyDecal = await decal.json();
 
     
-    const promos = await fetch('promos_api/v1/promo');
+    // const promos = await fetch('promos_api/v1/promo');
     // const bodyPromo = await promos.json();
 
-
-    this.setState({ 
-      apparel: bodyApparel, 
-      // decal:bodyDecal,
-      // promos: bodyPromo,
-      isLoading: false,
-    });
     // console.log(this.state.apparel)
     // console.log(this.state.decal)
     // console.log(this.state.promos)
-  }
+  
 
   render() {
     return (
