@@ -17,7 +17,7 @@ function NavbarMenu(){
                     
                     <li> <Link to="/TestimonialsContainer"> Testimonials </Link></li>
 
-                    <li> <Link to=""> Contact </Link> </li>
+                    <li> <Link to="/ContactPage"> Contact </Link> </li>
 
                 </ul>
             </nav>
