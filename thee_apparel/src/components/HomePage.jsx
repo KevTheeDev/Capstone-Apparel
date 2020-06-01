@@ -1,11 +1,16 @@
 import React from 'react';
 // @ts-ignore
 import HomePageCss from '../styles/HomePage.css'
-import HomePageScss from '../styles/HomePageScss';
+import HomePageScss from '../styles/HomePage.scss';
 
 function HomePage() {
         return (
             <div className="homepage">
+            <div id="main-div-home-page"> 
+            <h1 id="h1-home-page"></h1>
+            <h2 id="h2-home-page"></h2>
+            <p  id="p-home-page"></p>
+            </div>
                 <p className="homepage-paragraph"> Clothes For The Comfortable Stage of Life </p>
 
                 <p id="firstpg-paragraph"> ...comfort of dad / mom jeans with the "hipness" of modern times. Express yourself, through various styles, just a little, you deserve it! </p>
