@@ -8,31 +8,18 @@ import About from './components/About';
 import TestimonialsContainer from './components/TestimonialsContainer';
 import CartContainer from './components/CartContainer';
 import ContactPage from './components/ContactPage';
+import APIApparel from './components/APIApparel'
+import Footer from './components/Footer';
 
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = { 
-      apparel: " ", 
-      decal:" ",
-      promos: "",
-      isLoading: false,
+
 
      };
   }
-
-    
-    // const decal = await fetch('decal_api/v1/dec');
-    // const bodyDecal = await decal.json();
-
-    
-    // const promos = await fetch('promos_api/v1/promo');
-    // const bodyPromo = await promos.json();
-
-    // console.log(this.state.apparel)
-    // console.log(this.state.decal)
-    // console.log(this.state.promos)
   
 
   render() {
@@ -50,11 +37,7 @@ class App extends Component {
           <Route exact path="/CartContainer" component={CartContainer} />
           <Route exact path="/ContactPage" component={ContactPage} />
 
-        </div>
-
-        <div className="async">
-          
-
+        <Footer />
         </div>
       
       </div>

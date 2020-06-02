@@ -66,10 +66,15 @@ You can [** Pay us a visit **](https://facebook.github.io/create-react-app/docs/
 
 ##### FOR CSS
 https://www.w3schools.com/css/css_link.asp
+https://blog.cloudboost.io/using-inline-styles-in-jsx-c1d03cbe6fe0
 
 
 
 ##### FOR XML
+
+##### PICS
+https://cdn-img.prettylittlething.com/e/1/a/d/e1ad80a12e7b47f4b766af1cf503c82a201e3537_CLX2936_1.JPG
+
 
 
 

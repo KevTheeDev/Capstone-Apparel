@@ -1,3 +1,12 @@
+  .column {
+    float: left;
+    padding: 20px;
+  }
+
+body{
+      box-sizing: border-box;
+  }
+
 .homepage-paragraph{
     margin-top: 20%;
     font-style: normal;

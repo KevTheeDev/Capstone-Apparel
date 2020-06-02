@@ -8,7 +8,7 @@ function ContactPage(){
             <p> Email: eric@capshr.com </p>
             <p> Facebook: @CapstonApparel </p>
             <p> Snap: @CapstonApparel </p>
-            <p> Insta: @CapstonApparel </p>ç
+            <p> Insta: @CapstonApparel </p>
             
         </React.Fragment>
     )

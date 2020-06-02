@@ -14,22 +14,29 @@ class APIApparel extends Component {
 
     getApparel = async () => {
         const {apparel} = this.state;
-        const responseApparel = await axios.get('http://localhost:8080/apparel_api/v1/clothes');
-        this.setState({data: responseApparel.data})
-        console.log(this.state.data[0].name)
-        console.log(this.state.data.name)
-
-        // this.setState({ 
-        //   apparel: responseApparel, 
-        //   isLoading: false,
-        // });
-        // console.log(this.state.apparel)
+        const response = await axios.get('/apparel_api/v1/clothes', );
+        this.setState({data: response.data})
+        console.log(this.state.data[0].shirt)
+        console.log(this.state.data.shirt)
       }
+
+    componentDidMount(){
+        axios.get(`/apparel_api/v1/clothes`)
+        .then( res => {
+            const apparel = res.data;
+            this.setState({ apparel })
+        })
+    }
 
     render() {
         return (
             <div>
-
+                <ul>
+                    <li>
+                        { this.state.apparel.map}
+                            
+                    </li>
+                </ul>
             </div>
         );
     }
