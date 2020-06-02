@@ -10,13 +10,6 @@ import APIApparel from './APIApparel.jsx';
 
 function HomePage() {
 
-    let pgimg = {
-        width: '100%',
-        height: '50%'
-    };
-
-    
-    
         return (
             <div className="homepage">
             <div id="main-div-home-page"> 
@@ -33,18 +26,51 @@ function HomePage() {
                 
                 <div className="row">
                     <div className="column">
-                        <img src={whiteDress} alt="logo" style={ pgimg } />
-                        <p> Buy Now!</p>
+                        <img src={whiteDress} alt="logo" />
+                        <input type="number" id="quantity1" name="quantity" min="1" max="99" value="1" />
+                        <select name="size1" id="size1" >
+                            <option value="size" disabled selected>Size</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
+                        </select>
+                        
+                    <div>
+                        <button className="addTo" >Add To Cart </button>
+                    </div>
                     </div>
 
                     <div className="column">
-                        <img src={RedDressLoose} alt="logo"  style={ pgimg } />
-                        <p> Buy Now!</p>
+                        <img src={RedDressLoose} alt="logo" />
+                        <input type="number" id="quantity1" name="quantity" min="1" max="99" value="1" />
+                        <select name="size1" id="size1" >
+                            <option value="size" disabled selected>Size</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
+                        </select>
+                        
+                    <div>
+                        <button className="addTo" >Add To Cart </button>
+                    </div>
                     </div>
 
                     <div className="column">
-                        <img src={JeansDadBlack} alt="logo" style={ pgimg } />
-                        <p> Buy Now!</p>
+                        <img src={JeansDadBlack} alt="logo"/>
+                        <input type="number" id="quantity1" name="quantity" min="1" max="99" value="1" />
+                        <select name="size1" id="size1" >
+                            <option value="size" disabled selected>Size</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
+                        </select>
+                        
+                    <div>
+                        <button className="addTo" >Add To Cart </button>
+                    </div>
                     </div>
 
                 </div>

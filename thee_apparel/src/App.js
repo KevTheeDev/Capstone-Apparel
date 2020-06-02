@@ -37,6 +37,7 @@ class App extends Component {
           <Route exact path="/CartContainer" component={CartContainer} />
           <Route exact path="/ContactPage" component={ContactPage} />
 
+        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <Footer />
         </div>
       

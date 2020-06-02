@@ -1,0 +1,7 @@
+.checkout {
+    height: 900px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

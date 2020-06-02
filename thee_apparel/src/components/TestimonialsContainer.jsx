@@ -74,7 +74,7 @@ class TestimonialsContainer extends Component {
         let inputs = this.state.inputs;
         return (
           <div className="CommentForm">
-            <h2> Comments </h2>
+            <h2> Testimonials </h2>
             <form ref="combox" className="outer-comment-box">
               {/* the ref helps with the focus */}
               <textarea ref="name" placeholder="Add a comment.." className="inner-comment-box"> </textarea>
@@ -83,11 +83,16 @@ class TestimonialsContainer extends Component {
     
             <pre>
               {inputs.map((data, i) =>
-              <li key={i} className="list-elements">
-                 {data.name}
-                <button onClick={()=>this.fRemove(i)} className="remove-edit-buttons">remove </button>
-                <button onClick={()=>this.fEdit(i)} className="remove-edit-buttons">edit </button>
-              </li>
+              <ul>
+                <li key={i} className="list-elements">
+                  {data.name}
+                  
+                  <button onClick={()=>this.fRemove(i)} className="remove-edit-buttons">remove </button>
+
+                  <button onClick={()=>this.fEdit(i)} className="remove-edit-buttons">edit </button>
+                </li>
+              </ul>
+
                 )}
             </pre>
     

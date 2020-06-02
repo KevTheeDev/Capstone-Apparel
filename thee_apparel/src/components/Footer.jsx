@@ -2,10 +2,11 @@ import React from 'react';
 import "../styles/NavbarMenu.css";
 import '../App.css'
 import { Link } from 'react-router-dom';
+import FooterScss from '../styles/Footer.scss';
 
 function Footer(){
     return(
-        <div className="navbar-list">
+        <div className="bottom-navbar-list">
 
             <nav> 
                 <ul>
