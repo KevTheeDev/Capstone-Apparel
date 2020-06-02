@@ -4,7 +4,7 @@
 ### Purpose
 This app will tailor to individuals, mid-forties, to offer a more viable and stylish options to their line of clothing. We're offering the comfort of dad jeans with the "hipness" of modern times. Express yourself, through various styles, just a little, you deserve it!
 
-You can [** Pay us a visit **](https://facebook.github.io/create-react-app/docs/getting-started) here.
+You can [** Pay us a visit **](https://capstone-apparel.herokuapp.com/) here.
 
 ![wireframe](./WireframeApparel1.png)
 ![wireframe](./WireframeApparel2.png)
@@ -35,7 +35,9 @@ You can [** Pay us a visit **](https://facebook.github.io/create-react-app/docs/
  1. Minimalistic and Modern
 
 
- #### Problemss Encountered
+ #### Problems Encountered
+ CSS
+ API and FrontEnd Integration
 
 
  #### Planning Board
